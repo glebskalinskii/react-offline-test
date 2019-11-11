@@ -1,0 +1,39 @@
+:root {
+  --color-bulb-transparent: .2;
+  --color-bulb-filled: 1;
+}
+
+.icon-charging-bulb {
+  fill: var(--color-secondary);
+  animation: neon-bulb 2.5s infinite;
+}
+
+@keyframes neon-bulb {
+  from, 10% {
+    opacity: var(--color-bulb-filled);
+  }
+  10%, 20% {
+    opacity: var(--color-bulb-transparent);
+  }
+  20%, 22% {
+    opacity: var(--color-bulb-filled);
+  }
+  22%, 25% {
+    opacity: var(--color-bulb-transparent);
+  }
+  25%, 32% {
+    opacity: var(--color-bulb-filled);
+  }
+  32%, 35% {
+    opacity: var(--color-bulb-transparent);
+  }
+  35%, 40% {
+    opacity: var(--color-bulb-filled);
+  }
+  40%, 80% {
+    opacity: var(--color-bulb-transparent);
+  }
+  80%, 100% {
+    opacity: var(--color-bulb-filled);
+  }
+}
