@@ -1,7 +1,11 @@
 import React from 'react';
 
-const App = () => <h1>UK Energy Mix</h1>;
+import './styles/app.css';
 
-export {
-    App
+const App = () => {
+  return <div className="power-dashboard">
+    <h1>UK Energy Mix</h1>;
+  </div>
 }
+
+export default App;
