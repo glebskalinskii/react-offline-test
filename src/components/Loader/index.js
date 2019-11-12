@@ -6,7 +6,7 @@ import './styles.css';
 const Loader = () => {
   return <div className="loader">
     <IconChargingBulb />
-    <h2 className="loader-text">Charging...</h2>
+    <h2 className="loader-text">Powering up...</h2>
   </div>
 }
 
