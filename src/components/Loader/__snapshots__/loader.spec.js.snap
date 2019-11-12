@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders and matches snapshot 1`] = `
+<div
+  className="loader"
+>
+  <IconChargingBulb />
+  <h2
+    className="loader-text"
+  >
+    Powering up...
+  </h2>
+</div>
+`;
