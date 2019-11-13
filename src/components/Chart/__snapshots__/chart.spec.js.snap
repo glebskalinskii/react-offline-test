@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart should render and match snapshot 1`] = `
+<PieChart
+  barCategoryGap="10%"
+  barGap={4}
+  cx="50%"
+  cy="50%"
+  endAngle={360}
+  height={500}
+  innerRadius={0}
+  layout="centric"
+  margin={
+    Object {
+      "bottom": 5,
+      "left": 5,
+      "right": 5,
+      "top": 5,
+    }
+  }
+  outerRadius="80%"
+  reverseStackOrder={false}
+  stackOffset="none"
+  startAngle={0}
+  width={500}
+>
+  <Pie
+    activeIndex={null}
+    activeShape={[Function]}
+    animationBegin={400}
+    animationDuration={1500}
+    animationEasing="ease"
+    blendStroke={false}
+    cx={250}
+    cy={250}
+    data={
+      Array [
+        Object {
+          "fuel": "biomass",
+          "perc": 4.8,
+        },
+        Object {
+          "fuel": "coal",
+          "perc": 2.5,
+        },
+        Object {
+          "fuel": "imports",
+          "perc": 8.7,
+        },
+        Object {
+          "fuel": "gas",
+          "perc": 46.5,
+        },
+        Object {
+          "fuel": "nuclear",
+          "perc": 16.1,
+        },
+        Object {
+          "fuel": "other",
+          "perc": 0.3,
+        },
+        Object {
+          "fuel": "hydro",
+          "perc": 0.9,
+        },
+        Object {
+          "fuel": "solar",
+          "perc": 14.6,
+        },
+        Object {
+          "fuel": "wind",
+          "perc": 5.6,
+        },
+      ]
+    }
+    dataKey="perc"
+    endAngle={360}
+    fill="#808080"
+    hide={false}
+    innerRadius={100}
+    isAnimationActive={true}
+    labelLine={true}
+    legendType="rect"
+    minAngle={0}
+    nameKey="fuel"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    outerRadius={200}
+    paddingAngle={2}
+    startAngle={0}
+    stroke="none"
+  >
+    <Cell
+      key="biomass"
+    />
+    <Cell
+      key="coal"
+    />
+    <Cell
+      key="imports"
+    />
+    <Cell
+      key="gas"
+    />
+    <Cell
+      key="nuclear"
+    />
+    <Cell
+      key="other"
+    />
+    <Cell
+      key="hydro"
+    />
+    <Cell
+      key="solar"
+    />
+    <Cell
+      key="wind"
+    />
+  </Pie>
+</PieChart>
+`;

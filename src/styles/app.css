@@ -1,6 +1,13 @@
-.power-dashboard {
+html {
+  overflow-x: hidden;
+}
+
+.power-dashboard-container {
   position: relative;
+  box-sizing: border-box;
   width: 100vw;
   height: 100vh;
   background-color: var(--color-fill);
+  padding-bottom: 48px;
+  overflow-y: auto;
 }

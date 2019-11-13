@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard should render and match snapshot 1`] = `
+<div
+  className="power-dashboard"
+>
+  <Chart
+    activeIndex={null}
+    data={
+      Array [
+        Object {
+          "colorKey": "#6aedc7",
+          "fuel": "biomass",
+          "perc": 4.8,
+        },
+        Object {
+          "colorKey": "#39c2c9",
+          "fuel": "coal",
+          "perc": 2.5,
+        },
+        Object {
+          "colorKey": "#ffce00",
+          "fuel": "imports",
+          "perc": 8.7,
+        },
+        Object {
+          "colorKey": "#ffa71a",
+          "fuel": "gas",
+          "perc": 46.5,
+        },
+        Object {
+          "colorKey": "#f866b9",
+          "fuel": "nuclear",
+          "perc": 16.1,
+        },
+        Object {
+          "colorKey": "#998ce3",
+          "fuel": "other",
+          "perc": 0.3,
+        },
+        Object {
+          "colorKey": "#206953",
+          "fuel": "hydro",
+          "perc": 0.9,
+        },
+        Object {
+          "colorKey": "#f9e9c5",
+          "fuel": "solar",
+          "perc": 14.6,
+        },
+        Object {
+          "colorKey": "#fb8825",
+          "fuel": "wind",
+          "perc": 5.6,
+        },
+      ]
+    }
+    setActiveIndex={[Function]}
+  />
+</div>
+`;
