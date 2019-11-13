@@ -86,7 +86,7 @@ exports[`Chart should render and match snapshot 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     outerRadius={200}
-    paddingAngle={2}
+    paddingAngle={0.5}
     startAngle={0}
     stroke="none"
   >
