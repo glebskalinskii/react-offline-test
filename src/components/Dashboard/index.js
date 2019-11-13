@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Chart from '../Chart';
+import Legend from '../Legend';
 
 import './styles.css';
 
@@ -25,6 +26,11 @@ const Dashboard = ({ data }) => {
 
   return <div className="power-dashboard">
     <Chart
+      data={generationmixWithKeys}
+      activeIndex={activeIndex}
+      setActiveIndex={setActiveIndex}
+    />
+    <Legend
       data={generationmixWithKeys}
       activeIndex={activeIndex}
       setActiveIndex={setActiveIndex}

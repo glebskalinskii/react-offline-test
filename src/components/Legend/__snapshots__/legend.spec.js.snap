@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legend should highlight active item and match snapshot 1`] = `
+<ul
+  className="legend has-active-item"
+>
+  <li
+    className="legend-item active"
+    key="biomass"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      biomass
+    </span>
+    <span>
+      4.8%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="coal"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      coal
+    </span>
+    <span>
+      2.5%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="imports"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      imports
+    </span>
+    <span>
+      8.7%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="gas"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      gas
+    </span>
+    <span>
+      46.5%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="nuclear"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      nuclear
+    </span>
+    <span>
+      16.1%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="other"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      other
+    </span>
+    <span>
+      0.3%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="hydro"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      hydro
+    </span>
+    <span>
+      0.9%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="solar"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      solar
+    </span>
+    <span>
+      14.6%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="wind"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      wind
+    </span>
+    <span>
+      5.6%
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Legend should render and match snapshot 1`] = `
+<ul
+  className="legend"
+>
+  <li
+    className="legend-item "
+    key="biomass"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      biomass
+    </span>
+    <span>
+      4.8%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="coal"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      coal
+    </span>
+    <span>
+      2.5%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="imports"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      imports
+    </span>
+    <span>
+      8.7%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="gas"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      gas
+    </span>
+    <span>
+      46.5%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="nuclear"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      nuclear
+    </span>
+    <span>
+      16.1%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="other"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      other
+    </span>
+    <span>
+      0.3%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="hydro"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      hydro
+    </span>
+    <span>
+      0.9%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="solar"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      solar
+    </span>
+    <span>
+      14.6%
+    </span>
+  </li>
+  <li
+    className="legend-item "
+    key="wind"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <span
+      className="legend-item-key"
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    />
+    <span
+      className="legend-item-fuel"
+    >
+      wind
+    </span>
+    <span>
+      5.6%
+    </span>
+  </li>
+</ul>
+`;
