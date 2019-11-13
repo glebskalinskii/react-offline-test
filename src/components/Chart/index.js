@@ -43,7 +43,7 @@ const Chart = ({ data, activeIndex, setActiveIndex }) => {
       onMouseEnter={mouseEnterHandler}
       onMouseLeave={mouseLeaveHandler}
       stroke="none"
-      paddingAngle={2}
+      paddingAngle={.5}
     >
       {
         data.map((energyUnit, index) => <Cell key={energyUnit.fuel} fill={energyUnit.colorKey}/>)
